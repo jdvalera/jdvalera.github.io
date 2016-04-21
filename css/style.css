@@ -62,11 +62,6 @@ footer {
     vertical-align: middle;
 }
 
-.port {
-    width: 80%;
-    margin 0 auto;
-}
-
 .thumbnail {
     max-width: 300px;
     margin: 10px auto;
@@ -75,8 +70,4 @@ footer {
 .nav.navbar-nav > li > a:hover {
     background-color: #eee;
     color: red;
-}
-
-.cent {
-    margin: 0 auto;
 }
