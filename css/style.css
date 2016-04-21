@@ -76,3 +76,7 @@ footer {
     background-color: #eee;
     color: red;
 }
+
+.cent {
+    margin: 0 auto;
+}
