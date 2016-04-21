@@ -72,9 +72,23 @@ footer {
     vertical-align: middle;
 }
 
-.thumbnail {
-    max-width: 300px;
+.crop {
+    width: 100%;
+    height: 250px;
     margin: 10px auto;
+    overflow: hidden;
+    display: block;
+    background-image: url('http://placehold.it/400x300');
+    background-position: center;
+}
+
+.crop img {
+    width: 100%;
+    height: auto;
+}
+
+.crop:hover {
+    border: solid;
 }
 
 #navbar-links a:hover {
@@ -98,11 +112,11 @@ a#john:hover {
 }
 
 
-@media (min-width: 480px) and (max-width: 760px) {
+@media (min-width: 350px) and (max-width: 760px) {
     #main-header h1 {
         border-bottom: solid;
         display:block;
-        width: 50%;
+        width: 60%;
         margin: 10px auto;
     }
 
