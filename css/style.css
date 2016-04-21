@@ -71,3 +71,8 @@ footer {
     max-width: 300px;
     margin: 10px auto;
 }
+
+.nav.navbar-nav > li > a:hover {
+    background-color: #eee;
+    color: red;
+}
