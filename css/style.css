@@ -5,14 +5,17 @@
 body {
     color: #fff;
     padding-top: 50px;
-    background-color: #373B44;
+    /*background-color: #373B44;*/
+    background-color: #03A9F4;
     font-weight: 500;
     font-family: 'HelveticaNeue';
 }
 
 section:nth-child(even) {
     /*background-color: #FE4B74;*/
-    background-color: #330000;
+    /*background-color: #330000;*/
+    background-color: #E1F5FE;
+    color: black;
 }
 
 
@@ -37,14 +40,21 @@ section {
 }
 
 header {
-    height: 100vh;
+    height: 80vh;
     display: table;
     width: 100%;
     text-shadow: 2px 2px 2px #000;
 }
 
+#main-header h1 {
+    border-bottom: solid;
+    display:block;
+    width: 50%;
+    margin: 10px auto;
+}
+
 h1 {
-    font-size: 10rem;
+    font-size: 5rem;
 }
 
 footer {
@@ -67,7 +77,36 @@ footer {
     margin: 10px auto;
 }
 
-.nav.navbar-nav > li > a:hover {
+#navbar-links a:hover {
     background-color: #eee;
-    color: red;
+}
+
+a#john:hover {
+    background-color: #eee;
+}
+
+@media (min-width: 760px) {
+    #main-header h1 {
+        border-bottom: solid;
+        display:block;
+        width: 40%;
+        margin: 10px auto;
+    }
+    h1 {
+        font-size: 10rem;
+    }
+}
+
+
+@media (min-width: 480px) and (max-width: 760px) {
+    #main-header h1 {
+        border-bottom: solid;
+        display:block;
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    h1 {
+        font-size: 6.8rem;
+    }
 }
