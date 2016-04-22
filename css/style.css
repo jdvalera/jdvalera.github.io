@@ -14,7 +14,8 @@ body {
 section:nth-child(even) {
     /*background-color: #FE4B74;*/
     /*background-color: #330000;*/
-    background-color: #E1F5FE;
+    /*background-color: #E1F5FE;*/
+    background-color: #EAF5FE;
     color: black;
 }
 
@@ -60,8 +61,9 @@ h1 {
     font-size: 5rem;
 }
 
-footer {
-    height: 5vh;
+#main-footer {
+    padding-top: 5px;
+    height: 1vh;
     display: table;
     width: 100%;
 }
@@ -76,7 +78,7 @@ footer {
     vertical-align: middle;
 }
 
-#about-me p {
+#about-me, #contact p {
     font-size: 24px;
     margin-bottom: 20px;
 }
@@ -109,6 +111,32 @@ a#john:hover {
     background-color: #eee;
 }
 
+.contact-logo {
+    font-size: 10rem;
+    transition: 0.5s;
+}
+
+#contact {
+    height: 70vh;
+}
+
+
+#contact a {
+    color: black;
+}
+
+#contact a:hover {
+
+}
+
+.contact-logo:hover {
+    font-size: 13rem;
+}
+
+.padding {
+    padding-top: 10%;
+}
+
 @media (min-width: 760px) {
     #main-header h1 {
         border-bottom: solid;
@@ -120,8 +148,13 @@ a#john:hover {
         font-size: 10rem;
     }
 
-    #about-me h1 {
+    #about-me, #contact h1 {
         font-size: 7rem;
+    }
+
+    #about-me, #contact p {
+        font-size: 24px;
+        margin-bottom: 20px;
     }
 }
 
